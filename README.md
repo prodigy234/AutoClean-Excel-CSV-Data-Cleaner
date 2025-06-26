@@ -4,6 +4,10 @@
 
 ---
 
+This intelligent AI-powered data cleaning tool has been deployed live [here](https://cleanme.streamlit.app/)
+
+---
+
 ## 📬 Author
 
 **Gbenga Kajola**
@@ -19,7 +23,6 @@
 [Certified_SQL_Database_Programmer](https://www.datacamp.com/certificate/SQA0019722049554)
 
 ---
-
 
 ## 🚀 Features
 
