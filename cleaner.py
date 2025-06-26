@@ -19,7 +19,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="title">🧹 Ultra Data Cleaner: Excel & CSV</p>', unsafe_allow_html=True)
+st.title("🧹 Ultra Data Cleaner: Excel & CSV")
+
+st.markdown('<p class="title">Making sure your data is clean</p>', unsafe_allow_html=True)
 
 st.sidebar.header("⚙️ Cleaning Settings")
 
@@ -78,6 +80,7 @@ def clean_data(df, transformations):
 
 # ----------- File Upload -----------
 uploaded_file = st.file_uploader("📂 Upload Excel or CSV file", type=["csv", "xlsx", "xlsm", "xls", "xlsb"])
+st.info("Upload your data and see the wonders I can do")
 
 if uploaded_file:
     try:
@@ -183,3 +186,24 @@ if uploaded_file:
 
     except Exception as e:
         st.error(f"❌ Error loading file: {str(e)}")
+
+# Footer
+st.markdown("---")
+st.markdown("# About the Developer")
+
+st.image("My image4.jpg", width=250)
+st.markdown("## **Kajola Gbenga**")
+
+st.markdown(
+    """
+\U0001F4C7 Certified Data Analyst | Certified Data Scientist | Certified SQL Programmer | Mobile App Developer | AI/ML Engineer
+
+\U0001F517 [LinkedIn](https://www.linkedin.com/in/kajolagbenga)  
+\U0001F4DC [View My Certifications & Licences](https://www.datacamp.com/portfolio/kgbenga234)  
+\U0001F4BB [GitHub](https://github.com/prodigy234)  
+\U0001F310 [Portfolio](https://kajolagbenga.netlify.app/)  
+\U0001F4E7 k.gbenga234@gmail.com
+"""
+)
+
+st.markdown("✅ Created using Python and Streamlit")
