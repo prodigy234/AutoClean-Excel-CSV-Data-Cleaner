@@ -21,7 +21,7 @@ st.markdown("""
 
 st.title("🧹 Ultra Data Cleaner: Excel & CSV")
 
-st.markdown('<p class="title">Making sure your data is clean</p>', unsafe_allow_html=True)
+st.markdown('<p class="title">AI-assisted Data Cleaning Tool</p>', unsafe_allow_html=True)
 
 st.sidebar.header("⚙️ Cleaning Settings")
 
