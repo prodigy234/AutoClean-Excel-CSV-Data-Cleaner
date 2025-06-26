@@ -80,7 +80,7 @@ def clean_data(df, transformations):
 
 # ----------- File Upload -----------
 uploaded_file = st.file_uploader("📂 Upload Excel or CSV file", type=["csv", "xlsx", "xlsm", "xls", "xlsb"])
-st.info("Upload your data and see the wonders I can do")
+st.info("Upload your data above 👆👆 and see the limitless capabilities I'm able to do")
 
 if uploaded_file:
     try:
